@@ -18,6 +18,7 @@
 body{margin:0;background:#121212}
 a{color:#F2C230}a:hover{color:#FFE07A}
 img{display:block}
+@media(max-width:640px){.only-desktop{display:none!important}}
 </style>
 </helmet>
 <div style="background: #121212; color: #F3EFE6; font-family: Manrope, sans-serif; font-size: 18px; line-height: 1.5; overflow: hidden">
@@ -25,7 +26,7 @@ img{display:block}
 <!-- HERO -->
 <header style="max-width: 1200px; margin: 0 auto; padding: 48px 24px 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 48px; align-items: center">
 <div style="display: flex; flex-direction: column; gap: 24px">
-<div style="display: inline-flex; align-self: flex-start; padding: 8px 16px; border: 2px solid #F2C230; border-radius: 999px; color: #F2C230; font-weight: 800; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase">Официальная страница · версия 2026</div>
+<div class="only-desktop" style="display: inline-flex; align-self: flex-start; padding: 8px 16px; border: 2px solid #F2C230; border-radius: 999px; color: #F2C230; font-weight: 800; font-size: 14px; letter-spacing: 0.08em; text-transform: uppercase">Официальная страница · версия 2026</div>
 <h1 style="margin: 0; font-family: Unbounded, sans-serif; font-weight: 900; font-size: clamp(32px, 4.6vw, 60px); line-height: 1.05; text-transform: uppercase">Друг<br>повышенного<br><span style="color: {{accent}}">комфорта</span></h1>
 <p style="margin: 0; font-size: 20px; max-width: 520px; color: #CFC9BD">Привет. Ты открыл(а) эту ссылку, значит, кто-то решил, что тебе нужен друг. Хорошие новости: он перед тобой. Листай, изучай характеристики, принимай решение. Спойлер: правильный ответ — «да».</p>
 <div style="display: flex; flex-wrap: wrap; gap: 12px">
